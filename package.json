@@ -1,0 +1,30 @@
+{
+  "name": "levelupyourcareer.today",
+  "version": "1.0.0",
+  "description": "Website for the eBook 'Level-Up Your Career Today' by Jack Domleo",
+  "main": "index.js",
+  "scripts": {
+    "create": "node-sass scss/normalize.scss css/normalize.min.css",
+    "serve": "http-server ./ --port 1234 -a localhost"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackdomleo7/levelupyourcareer.today.git"
+  },
+  "author": {
+    "name": "Jack Domleo",
+    "url": "https://jackdomleo.dev"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackdomleo7/levelupyourcareer.today/issues"
+  },
+  "homepage": "https://levelupyourcareer.today",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "node-sass": "^4.14.1"
+  }
+}

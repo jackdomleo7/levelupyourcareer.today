@@ -1,7 +1,7 @@
 {
   "name": "levelupyourcareer.today",
   "version": "1.0.0",
-  "description": "Website for the eBook 'Level-Up Your Career Today' by Jack Domleo",
+  "description": "Official website for the eBook 'Level-Up Your Career Today: Developer Edition' by Jack Domleo",
   "main": "index.js",
   "scripts": {
     "create": "node-sass scss/normalize.scss css/normalize.min.css",

@@ -4,7 +4,7 @@
   "description": "Official website for the eBook 'Level-Up Your Career Today: Developer Edition' by Jack Domleo",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass scss/normalize.scss css/normalize.min.css --output-style compressed && node-sass scss/main.scss css/index.min.css --output-style compressed && npx postcss css/index.min.css --use autoprefixer --replace --no-map",
+    "build": "node-sass scss/normalize.scss css/normalize.min.css --output-style compressed && node-sass scss/cooltipz.scss css/cooltipz.min.css --output-style compressed && node-sass scss/main.scss css/index.min.css --output-style compressed && npx postcss css/index.min.css --use autoprefixer --replace --no-map",
     "serve": "http-server ./ --port 1234 -a localhost"
   },
   "repository": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://levelupyourcareer.today",
   "dependencies": {
+    "cooltipz-css": "^1.6.6",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {

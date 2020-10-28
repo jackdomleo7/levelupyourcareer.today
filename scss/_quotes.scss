@@ -1,0 +1,54 @@
+.quotes {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    width: 100%;
+    padding: 1rem;
+
+    @media (min-width: 45em) {
+      width: 50%;
+    }
+  }
+
+  .quote {
+    margin: 0;
+
+    &__blockquote {
+      text-align: center;
+      position: relative;
+      margin: 0;
+      padding: 2rem 0.5rem 0.5rem 2rem;
+
+      &::before {
+        content: '“';
+        color: var(--orange);
+        font-size: 4rem;
+        position: absolute;
+        top: 1rem;
+        left: 0.2rem;
+      }
+    }
+
+    &__link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      text-decoration: none;
+      margin-top: 0.5rem;
+    }
+
+    &__img {
+      border-radius: 50%;
+      width: 5rem;
+    }
+
+    &__name {
+      text-transform: uppercase;
+      color: var(--blue);
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.jumbo {
+  display: grid;
+  grid-template-areas: 'img' 'text';
+  place-items: center;
+  gap: 4rem;
+
+  @media (min-width: 45em) {
+    grid-template-areas: 'img text';
+  }
+
+  &__img {
+    grid-area: img;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05);
+  }
+
+  &__text {
+    grid-area: text;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+
+    p {
+      font-size: 1.4rem;
+    }
+
+    a {
+      align-self: center;
+    }
+  }
+}

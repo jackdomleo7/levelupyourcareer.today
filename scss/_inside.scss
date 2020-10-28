@@ -1,0 +1,21 @@
+.ebook {
+  display: grid;
+  gap: 4rem;
+  place-items: center;
+  grid-template-areas: 'ebookImg' 'ebookText';
+
+  @media (min-width: 45em) {
+    grid-template-areas: 'ebookText ebookImg';
+  }
+
+  &__img {
+    grid-area: ebookImg;
+    border-radius: 0.25rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    width: 8rem;
+  }
+
+  &__text {
+    grid-area: ebookText;
+  }
+}

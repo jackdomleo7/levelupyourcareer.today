@@ -1,0 +1,27 @@
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  flex-direction: column-reverse;
+  margin-top: 1.5rem;
+
+  @media (min-width: 45em) {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  &__img {
+    border-radius: 50%;
+    width: 6.25rem;
+    box-shadow: 0 0 6px 0 var(--grey);
+
+    @media (min-width: 45em) {
+      width: 19rem;
+    }
+  }
+
+  a {
+    color: inherit;
+  }
+}

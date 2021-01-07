@@ -28,4 +28,16 @@
       align-self: center;
     }
   }
+
+  &__buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+
+    @media (min-width: 23.75em) {
+      flex-direction: row;
+    }
+  }
 }

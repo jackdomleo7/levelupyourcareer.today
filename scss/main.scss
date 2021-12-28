@@ -1,7 +1,6 @@
-@import './variables';
-@import './global';
-@import './jumbo';
-@import './sronly';
-@import './inside';
-@import './quotes';
-@import './author';
+@use './global' as *;
+@use './jumbo' as *;
+@use './sronly' as *;
+@use './inside' as *;
+@use './quotes' as *;
+@use './author' as *;

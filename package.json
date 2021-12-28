@@ -1,10 +1,9 @@
 {
   "name": "levelupyourcareer.today",
-  "version": "1.0.0",
+  "private": true,
   "description": "Official website for the eBook 'Level-Up Your Career Today: Developer Edition' by Jack Domleo",
-  "main": "index.js",
   "scripts": {
-    "build": "node-sass scss/normalize.scss css/normalize.min.css --output-style compressed && node-sass scss/cooltipz.scss css/cooltipz.min.css --output-style compressed && node-sass scss/main.scss css/index.min.css --output-style compressed && npx postcss css/index.min.css --use autoprefixer --replace --no-map && npx sitemap-generator-cli https://levelupyourcareer.today --last-mod",
+    "build": "sass --no-source-map scss/normalize.scss css/normalize.min.css --style=compressed && sass --no-source-map scss/cooltipz.scss css/cooltipz.min.css --style=compressed && sass --no-source-map scss/main.scss css/index.min.css --style=compressed && npx postcss css/index.min.css --use autoprefixer --replace --no-map && npx sitemap-generator-cli https://levelupyourcareer.today --last-mod",
     "serve": "http-server ./ --port 1234 -a localhost"
   },
   "repository": {
@@ -21,15 +20,15 @@
   },
   "homepage": "https://levelupyourcareer.today",
   "dependencies": {
-    "cooltipz-css": "^1.6.7",
+    "cooltipz-css": "^2.1.0",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "http-server": "^0.12.3",
-    "node-sass": "^5.0.0",
-    "postcss": "^8.3.5",
-    "postcss-cli": "^8.3.1",
+    "autoprefixer": "^10.4.0",
+    "http-server": "^14.0.0",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.45.1",
     "sitemap-generator-cli": "^7.5.0"
   }
 }

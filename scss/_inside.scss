@@ -1,3 +1,5 @@
+@use './variables' as *;
+
 .ebook {
   margin: 4rem 0 0 0;
   display: grid;
@@ -11,7 +13,7 @@
   }
 
   &__img {
-    @extend .shadow;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     grid-area: ebookImg;
     border-radius: 0.25rem;
     width: 8rem;

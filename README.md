@@ -1,6 +1,6 @@
 # Level-Up Your Career Today: Developer Edition
 
-**FREE career advice ebook written by [Jack Domleo](https://jackdomleo.dev) | Official website**
+**Career advice ebook written by [Jack Domleo](https://jackdomleo.dev) | Official website**
 
 Find me at:
 

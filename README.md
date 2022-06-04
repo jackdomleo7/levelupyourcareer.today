@@ -1,5 +1,7 @@
 # Level-Up Your Career Today: Developer Edition
 
+_This webpage is moving to https://jackdomleo.dev/products/level-up-your-career-today-developer-edition_
+
 **Career advice ebook written by [Jack Domleo](https://jackdomleo.dev) | Official website**
 
 Find me at:

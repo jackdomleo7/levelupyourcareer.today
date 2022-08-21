@@ -1,6 +1,6 @@
 # Level-Up Your Career Today: Developer Edition
 
-_This webpage is moving to https://jackdomleo.dev/products/level-up-your-career-today-developer-edition_
+_This webpage has moved to https://jackdomleo.dev/products/level-up-your-career-today-developer-edition_
 
 **Career advice ebook written by [Jack Domleo](https://jackdomleo.dev) | Official website**
 
@@ -23,3 +23,9 @@ I really appreciate any support, whether it's giving a [rating on Gumroad](https
 <a href="https://www.producthunt.com/posts/level-up-your-career-today-dev-edition?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-level-up-your-career-today-dev-edition" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=271450&theme=light" alt="Level-Up Your Career Today: Dev Edition - An eBook by Jack Domleo focusing on your career! | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 <a href="https://www.buymeacoffee.com/jackdomleo7" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto;width: 200px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;"></a>
+
+## This repository is now acrhived
+
+This repository has been archived because the webpage has been moved to https://jackdomleo.dev/products/level-up-your-career-today-developer-edition, but here's how the page used to look:
+
+![Screenshot](./img/screencapture.png)
